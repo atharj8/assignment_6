@@ -1,0 +1,162 @@
+\documentclass[tikz,border=2pt,png]{article}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\begin{document}
+\title{ASSIGNMENT 6}
+\author{Athar Javed}
+\date{\today}
+\maketitle
+\begin{itemize}
+
+\item{\textbf{Question 2.75:}}\\
+
+Discuss the continuity of the function f , where f is defined by,\\
+$
+
+a) \[f(x)=
+\left\{\begin{array}{11}
+ 3 & 0 \le x \le 1\\
+4 & 0 < x \le 3\\
+5 & 3 \le x \le 10\\
+\end{array}
+\right. \]\\
+
+b) \[f(x)=
+\left\{\begin{array}{11}
+ 2x & x < 0\\
+0 & 0 \le x \le 1\\
+4x & x > 1\\
+\end{array}
+\right. \]\\
+
+c) \[f(x)=
+\left\{\begin{array}{11}
+ -2 & x < -1\\
+2x & -1 \le x \le 1\\
+2 & x > 1\\
+\end{array}
+\right. \]\\
+
+\textbf{Solution:}\\
+
+a) \[f(x)=
+\left\{\begin{array}{11}
+ 3 & 0 \le x \le 1\\
+4 & 0 < x \le 3\\
+5 & 3 \le x \le 10\\
+\end{array}
+\right. \]
+$\\
+
+As f(x) is the mixture of constant functions \therefore{} &it will be continuous at every point except points at which  constant functions are changing  their behaviour i.e, 1,3.\\
+
+for 1:\\
+
+\hspace{3.5 cm}lim_{x\to1^{-}}f(x)=3\\
+
+\hspace{3.5 cm}lim_{x\to1^{+}}f(x)=4\\
+
+or, \hspace{3 cm}lim_{x\to1^{-}}f(x)\neq lim_{x\to1^{+}}f(x)\\
+
+ \therefore{} &f(x) is not continuous at x=1.\\
+ 
+ Similarly for x=3.\\
+ 
+b) \[f(x)=
+\left\{\begin{array}{11}
+ 2x & x < 0\\
+0 & 0 \le x \le 1\\
+4x & x > 1\\
+\end{array}
+\right. \]\\
+
+for f(x) to be continuous at every point, it should be continuous at 0 and 1.\\
+$
+for 0:\\
+
+\hspace{3.5 cm}lim_{x\to0^{-}}f(x)=2x=0\\
+
+\hspace{3.5 cm}lim_{x\to0^{+}}f(x)=0\\
+
+or, \hspace{3 cm}lim_{x\to0^{-}}f(x)=lim_{x\to0^{+}}f(x)\\
+
+f(x) is continuous at x=0.\\
+
+for 1:\\
+
+\hspace{3.5 cm}lim_{x\to1^{-}}f(x)=0\\
+
+\hspace{3.5 cm}lim_{x\to1^{+}}f(x)=4x=4\\
+
+or, \hspace{3 cm}lim_{x\to1^{-}}f(x) \neq lim_{x\to1^{+}}f(x)\\
+
+f(x) is not continuous at x=1.\\
+$
+
+
+c) \[f(x)=
+\left\{\begin{array}{11}
+ -2 & x < -1\\
+2x & -1 \le x \le 1\\
+2 & x > 1\\
+\end{array}
+\right. \]\\
+
+for f(x) to be continuous at all points it should be continuous at -1 and 1.\\
+$
+
+for -1:\\
+
+\hspace{3.5 cm}lim_{x\to-1^{-}}f(x)=-2\\
+
+\hspace{3.5 cm}lim_{x\to-1^{+}}f(x)=2x=-2\\
+
+or, \hspace{3 cm}lim_{x\to-1^{-}}f(x)=lim_{x\to-1^{+}}f(x)\\
+
+f(x) is continuous at x=-1.\\
+
+for 1:\\
+
+\hspace{3.5 cm}lim_{x\to1^{-}}f(x)=2x=2\\
+
+\hspace{3.5 cm}lim_{x\to1^{+}}f(x)=2\\
+
+or, \hspace{3 cm}lim_{x\to1^{-}}f(x)=lim_{x\to1^{+}}f(x)\\
+
+f(x) is continuous at all points.\\
+$
+\newpage
+\item{\textbf{Question 2.76:}}\\
+
+Find the relationship between a and b so that the function defined by,\\
+ 
+\[f(x)=
+\left\{\begin{array}{11}
+ax+1 & x \le 1\\
+bx+3 & x > 3\\
+\end{array}
+\right. \]
+$\\
+
+is continuous at x=3.\\
+
+\textbf{Solution:}\\
+
+\[f(x)=
+\left\{\begin{array}{11}
+ax+1 & x \le 1\\
+bx+3 & x > 3\\
+\end{array}
+\right. \]
+$\\
+
+for f(x) to be continuous at $x=3$.\\
+
+$
+\hspace{3.5 cm}\lim_{x\to3^{+}}f(x)=\lim_{x\to3^{-}}f(x)$.\\
+
+\hspace{3.5 cm}$b(3)+3=a(3)+1$.\\
+
+Hence, \hspace{3 cm}$(a-b)=2/3$\\
+\end{itemize}
+\end{document}
